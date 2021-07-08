@@ -1,0 +1,207 @@
+:root {
+  --main-color: rgb(182, 233, 253);
+  --me-margin: 40px;
+  --font-color: #373a3c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: Roboto;
+}
+ul.nav-pills {
+  top: 20px;
+  position: fixed;
+}
+div.col-8 div {
+  height: 500px;
+}
+
+.mainnav,
+ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+ul,
+li,
+a {
+  list-style: none;
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+li > a:hover {
+  text-decoration: underline;
+}
+
+/* Top section */
+.main {
+  margin: 0px;
+  background-color: var(--main-color);
+}
+
+.mainBody {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Bebas Neue, cursive;
+  font-size: 40px;
+  text-align: center;
+  color: var(--font-color);
+  margin: 0px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  margin: 10px 10px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  color: var(--font-color);
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+.display-4 {
+  font-size: 25px;
+}
+/* Image of yourself*/
+
+.leftmain {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Personal information*/
+
+.rightMain {
+  margin-left: 20px;
+}
+
+.leftNav {
+  margin: 0px 10px;
+  background-color: var(--main-color) !important;
+
+  box-shadow: 5px 5px 20px rgba(15, 15, 15, 0.432);
+}
+
+.bg-white {
+  padding-top: 15px;
+}
+
+/* social app section */
+.social {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.socialicon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* self image*/
+.gel {
+  width: 325px;
+  height: 275px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.img-thumbnail {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.project {
+  width: 400px;
+
+  object-fit: cover;
+}
+
+.projectCard {
+  max-width: 30dsrem;
+}
+.studydesc {
+  margin-left: 30px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.card {
+  padding: 5px;
+  text-align: center;
+  line-height: 20px;
+  transition: all 0.5s ease-in-out;
+  align-items: center;
+}
+
+.card-body {
+  padding: 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+
+.aboutme {
+  margin: 0rem 5rem 2rem 5rem;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* design badge icons*/
+.badgeicon {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  /* For tablets: */
+
+  .col-sm-3 {
+    width: 50%;
+  }
+
+  .col-sm-9 {
+    width: 30%;
+  }
+}
