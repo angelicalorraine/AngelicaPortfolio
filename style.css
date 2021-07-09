@@ -9,15 +9,26 @@ html {
 }
 
 body {
-  position: relative;
-  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  text-align: center;
 }
-ul.nav-pills {
-  top: 20px;
-  position: fixed;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1%;
+  background-color: var(--main-color);
+  color: white;
 }
-div.col-8 div {
-  height: 500px;
+
+.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mainnav,
@@ -45,17 +56,9 @@ li > a:hover {
   background-color: var(--main-color);
 }
 
-.mainBody {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 h1 {
   font-family: Bebas Neue, cursive;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   color: var(--font-color);
   margin: 0px;
@@ -63,7 +66,7 @@ h1 {
 }
 
 h2 {
-  margin: 10px 10px;
+  margin: 0px 10px;
   text-align: center;
   font-family: Roboto;
   font-size: 25px;
@@ -83,24 +86,15 @@ h2 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  flex-direction: column;
 }
 
 /* Personal information*/
 
-.rightMain {
-  margin-left: 20px;
-}
-
-.leftNav {
-  margin: 0px 10px;
-  background-color: var(--main-color) !important;
-
-  box-shadow: 5px 5px 20px rgba(15, 15, 15, 0.432);
-}
-
-.bg-white {
-  padding-top: 15px;
+.rightmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* social app section */
@@ -118,10 +112,9 @@ h2 {
 
 /* self image*/
 .gel {
-  width: 325px;
-  height: 275px;
+  width: 300px;
+  height: 250px;
   object-fit: cover;
-  margin-bottom: 15px;
 }
 
 .img-thumbnail {
@@ -132,13 +125,14 @@ h2 {
 
 .project {
   width: 400px;
-
+  height: 250px;
   object-fit: cover;
 }
 
-.projectCard {
-  max-width: 30dsrem;
+.study {
+  margin: 10px;
 }
+
 .studydesc {
   margin-left: 30px;
 }
@@ -153,7 +147,7 @@ h2 {
   text-align: center;
   line-height: 20px;
   transition: all 0.5s ease-in-out;
-  align-items: center;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 40%);
 }
 
 .card-body {
@@ -182,26 +176,6 @@ h2 {
   object-fit: cover;
 }
 
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
-
-@media only screen and (max-width: 700px) {
-  /* For tablets: */
-
-  .col-sm-3 {
-    width: 50%;
-  }
-
-  .col-sm-9 {
-    width: 30%;
-  }
+.projects {
+  margin: 0rem 4rem;
 }

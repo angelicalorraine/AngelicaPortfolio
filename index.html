@@ -2,91 +2,242 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
 
-    <title>Angelica's Portfolio</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
 
+
+
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+
+
+  <title>Angelica's Portfolio</title>
 </head>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+<header>
+  <nav class="mainnav">
+    <ul>
+      <li> <a href="#"> Home </a> </li>
+      <li> <a href="#Projects"> Projects </a> </li>
+      <li> <a href="#AboutMe"> Contact </a> </li>
 
-  <div class="container-fluid">
-    <div class="row">
-      <nav class="col-sm-3 col-4 leftNav" id="myScrollspy">
+    </ul>
+  </nav>
+</header>
 
 
-        <ul class="nav nav-pills flex-column">
 
-          <li class="nav-item">
-            
-                   <img class="gel" src="Images/gelpic_1.png"> 
-                            <h1 class="name"> Angelica Hernandez </h1>
-                            <h2 class="jobtitle"> UX | UI Designer <br>
-                              Full Stack Developer</h2>
-                              </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#section1">FullStack Academy</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section2">PROJECTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#section3">CONTACT</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">FullStack Technology</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#section41">Link 1</a>
-              <a class="dropdown-item" href="#section42">Link 2</a>
-            </div>
-          </li>
-        </ul>
-      </nav>
-      <div class="col-sm-8 col-8 rightMain">
+<div class="main container-fluid">
+  <div class="d-flex flex-wrap justify-content-center rowmain">
+    <div class="leftmain flex-shrink-1"> <img class="gel" src="Images/gelpic_1.png"> </div>
 
-<section class="mainBody">
-          <div id="section1" class="bg-white">
-            <h1>FullStack Academy</h1>
-            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-          </div>
-          <div id="section2" class="bg-white">
-            <h1>Baobinh.net</h1>
-            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-          </div>
-          <div id="section3" class="bg-white">
-            <h1>Cheese.vn</h1>
-            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-          </div>
-          <div id="section41" class="bg-white">
-            <h1>FullStack Technology-1</h1>
-            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-          </div>
-          <div id="section42" class="bg-white">
-            <h1>FullStack Technology-2</h1>
-            <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-          </div>
-          </section>
+    <div class="rightmain flex-shrink-1">
+      <h1 class="name"> Angelica Hernandez </h1>
+      <h2 class="jobtitle"> UX | UI Designer <br>
+        Full Stack Developer</h2>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div id="" class="container d-flex justify-content-center">
+<div class="row projects ">
+
+
+  <div class="card mb-3 ">
+    <div class="row g-0 study">
+      <div class="col-md-6">
+        <img src="Images/StudyBuddy.png" class="project" alt="...">
+      </div>
+      <div class="col-md-6">
+        <div class="card-body studydesc">
+          <h4 class="card-title">Studdy Buddy: Project 1</h4>
+          <p class="card-text ">Our knowledge and newly learned skills were put to the test by creating a web
+            application from scratch. We conceived and executed a design and integrated data received from multiple
+            server-side API requests.</p>
+          <p>Study Buddy was built with the developer in mind, we are committed to being lifelong students. When
+            searching a question or topic and the results will show you only resolved results from StackOverflow along
+            with suggested tutorials! </p>
+          <a href="https://github.com/angelicalorraine/Study_Buddy" target="_blank"
+            class="btn btn-outline-secondary">Repository</a>
+          <a href="https://angelicalorraine.github.io/Study_Buddy/" target="_blank" class="btn btn-outline-info">Launch
+            App</a>
+
         </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="card mb-3 ">
+    <div class="row g-0 study">
+      <div class="col-md-6">
+        <img src="Images/Favor Trader.png" class="project" alt="...">
+      </div>
+      <div class="col-md-6">
+        <div class="card-body studydesc">
+          <h4 class="card-title">Favor Trader: Project 2</h4>
+          <p class="card-text ">Our knowledge and newly learned skills were put to the test by creating a full stack web application. We conceived and executed a design using the MVC paradigm, create a server-side API, add user authentication, and connect to a database.</p>
+          <p>Favor Trader is a neighborhood bartering platform for favors. It contains an Activity Feed where all user’s favors needs
+          are listed. To begin trading, each user will need to log in or sign up and create a user profile.</p>
+          <a href="https://github.com/angelicalorraine/Favor-Trader" target="_blank"
+            class="btn btn-outline-secondary">Repository</a>
+          <a href="https://favortrader.herokuapp.com/" target="_blank" class="btn btn-outline-info">Launch
+            App</a>
+  
         </div>
+      </div>
+    </div>
+  </div>
 
-       
+</div>
+</div>
+
+
+
+
+<div class="container d-flex justify-content-center ">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 align-items-center ">
+        <img src="Images/ForeWeather (1).png" class="card-img-top img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fore-Weather</h5>
+          <p class="card-text">This homeworks challenge was to build a weather dashboard that will run in the browser
+            and feature dynamically updated HTML and CSS. The main aspect of this assignment was accessing a Server-side
+            API to retrieve data, which was OpenWeather API</p>
+          <a href="https://github.com/angelicalorraine/Fore-Weather" target="_blank"
+            class="btn btn-outline-secondary">Repository</a>
+          <a href="https://angelicalorraine.github.io/Fore-Weather/" target="_blank" class="btn btn-outline-info">Launch
+            App</a>
         </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 align-items-center">
+        <img src="Images/InQUIZition.png" class="card-img-top img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">In-QUIZ-ition</h5>
+          <p class="card-text">This assignment was to build a timed coding quiz with multiple-choice questions. This app
+            will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. Also
+            saving your score and initials in the local storage.</p>
+          <a href="https://github.com/angelicalorraine/In-QUIZ-ition" target="_blank"
+            class="btn btn-outline-secondary">Repository</a>
+          <a href="https://angelicalorraine.github.io/In-QUIZ-ition/" target="_blank"
+            class="btn btn-outline-info">Launch App</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 align-items-center">
+        <img src="Images/daily-sched.png" class="card-img-top img-thumbnail" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Daily Agenda</h5>
+          <p class="card-text">This is a creation of a simple calendar application that allows a user to save events for
+            each hour of the day by modifying starter code. This app will run in the browser and feature dynamically
+            updated HTML and CSS powered by jQuery.</p>
+          <a href="https://github.com/angelicalorraine/Angelicas-Agenda" target="_blank"
+            class="btn btn-outline-secondary">Repository</a>
+          <a href="https://angelicalorraine.github.io/Angelicas-Agenda/" target="_blank"
+            class="btn btn-outline-info">Launch App</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 
 
 
 
-      <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<section id="AboutMe" class="bg-light">
+  <div class="container">
+    <div class="jumbotron row justify-content-center">
+      <div class="col-md-4 col-sm-12">
+        <h3 class="display-4">LET'S CONNECT!</h3>
 
+
+        <div class="flex-row social justify-content-center">
+
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/angelica-hernandez-301369130/">
+              <img class="socialicon" src="Images/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png"> </a>
+          </div>
+
+          <div class="icons">
+            <a href="https://github.com/angelicalorraine">
+              <img class="socialicon" src="Images/iconfinder_Group_4747499.png" target="_blank"> </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <p class="lead"> <span class="icon material-icons">
+            forward_to_inbox
+          </span>
+          gel.lorraine@gmail.com</p>
+        <p class="lead"> <span class="icon material-icons">
+            phone_callback
+          </span>
+          (562) 321-0713</p>
+        <p class="lead"> <span class="icon material-icons">
+            file_download
+          </span> <a href="AngelicahernandezResume2.pdf" target="_blank">Angelica's Resume</a></p>
+
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</div>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </body>
+
 </html>
