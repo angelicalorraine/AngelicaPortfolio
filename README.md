@@ -14,7 +14,7 @@ My portfolio will showcase
 
 #### My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do.
 
-### [Visit Me Here!](https://angelicalorraine.github.io/Angelica_Portfolio/)
+### [Visit Me Here!](https://angelicalorraine.github.io/AngelicaPortfolio/)
 
 ### [Download My Resume](AngelicahernandezResume2.pdf)
 
